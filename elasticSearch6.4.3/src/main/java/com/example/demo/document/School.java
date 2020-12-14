@@ -10,6 +10,7 @@ import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.io.Serializable;
+import java.util.Date;
 
 
 @Data
@@ -34,5 +35,10 @@ public class School implements Serializable {
 
     private int stuNum;
 
+    @Field(type = FieldType.Date)
+    private Date openDate;
+
+    @Field(type = FieldType.Date)
+    private Date createTime;
 
 }
