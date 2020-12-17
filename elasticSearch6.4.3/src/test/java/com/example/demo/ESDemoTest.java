@@ -312,9 +312,18 @@ public class ESDemoTest {
 //        String index = elasticsearchTemplate.index(indexQuery);
 
 
-        schoolRepository.save(school);
-
+//        schoolRepository.save(school);
 
     }
 
+
+    @Test
+    public void delByQuery(){
+        DeleteQuery deleteQuery = new DeleteQuery();
+        deleteQuery.setQuery(QueryBuilders.termQuery("name.keyword","洗马三中"));
+        deleteQuery.setIndex("middle_school_alias");
+        deleteQuery.setType("_doc");
+        elasticsearchTemplate.delete(deleteQuery);
+
+    }
 }

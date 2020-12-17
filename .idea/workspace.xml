@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5050c2da-e62f-4210-b71c-c5f32ccbe169" name="Default Changelist" comment="" />
+    <list default="true" id="5050c2da-e62f-4210-b71c-c5f32ccbe169" name="Default Changelist" comment="添加6.43">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch6.4.3/src/test/java/com/example/demo/ESDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticSearch6.4.3/src/test/java/com/example/demo/ESDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch6.4.3/target/test-classes/com/example/demo/ESDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticSearch6.4.3/target/test-classes/com/example/demo/ESDemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/ElasticsearchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/config/RestClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/School$SchoolBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/Teacher$TeacherBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/com/elasticsearch/demo/document/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/json/mappings/teacher_mappings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticSearch7.6.2/target/classes/json/settings/teacher_settings.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +37,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kRfY7txofR5QmE6GfumXi4K47f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,9 +67,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../J-DEMO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-data-elasticsearch-3.1.19.RELEASE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,6 +80,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.elasticsearch" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.document" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\ES-DEMO\elasticSearch6.4.3\src\main\resources" />
       <recent name="D:\project\ES-DEMO\elasticSearch6.4.3\src\main\java" />
@@ -66,8 +91,8 @@
       <recent name="D:\project\ES-DEMO\elasticSearch7.6.2\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ESDemoTest.createIndex">
-    <configuration name="ESDemoTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ESDemoTest.delByQuery">
+    <configuration name="ESDemoTest.delByQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticSearch6.4.3" />
       <extension name="coverage">
         <pattern>
@@ -77,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.ESDemoTest" />
-      <option name="METHOD_NAME" value="createIndex" />
+      <option name="METHOD_NAME" value="delByQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ESDemoTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ESDemoTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticSearch6.4.3" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.ESDemoTest" />
-      <option name="METHOD_NAME" value="testOne" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ESDemoTest.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ESDemoTest.testQuery_alias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticSearch6.4.3" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +134,47 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.ESDemoTest" />
-      <option name="METHOD_NAME" value="testTwo" />
+      <option name="METHOD_NAME" value="testQuery_alias" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESDemoTest.testSave_alis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticSearch6.4.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ESDemoTest" />
+      <option name="METHOD_NAME" value="testSave_alis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESDemoTest.testUpdate_alias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticSearch6.4.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ESDemoTest" />
+      <option name="METHOD_NAME" value="testUpdate_alias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elasticSearch6.4.3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ElasticsearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,10 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ESDemoTest.createIndex" />
-        <item itemvalue="JUnit.ESDemoTest.testTwo" />
-        <item itemvalue="JUnit.ESDemoTest.testOne" />
-        <item itemvalue="Spring Boot.ElasticsearchApplication (1)" />
+        <item itemvalue="JUnit.ESDemoTest.delByQuery" />
+        <item itemvalue="JUnit.ESDemoTest.main" />
+        <item itemvalue="JUnit.ESDemoTest.testSave_alis" />
+        <item itemvalue="JUnit.ESDemoTest.testQuery_alias" />
+        <item itemvalue="JUnit.ESDemoTest.testUpdate_alias" />
       </list>
     </recent_temporary>
   </component>
@@ -154,22 +219,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605668368761</updated>
-      <workItem from="1605668372370" duration="21385000" />
+      <workItem from="1605668372370" duration="32572000" />
+      <workItem from="1606369311275" duration="663000" />
+      <workItem from="1606373777343" duration="603000" />
+      <workItem from="1607130243589" duration="21300000" />
+      <workItem from="1607302829733" duration="17199000" />
+      <workItem from="1607562221810" duration="45856000" />
+      <workItem from="1608013198869" duration="655000" />
+      <workItem from="1608194244801" duration="3121000" />
     </task>
+    <task id="LOCAL-00001" summary="添加6.43">
+      <created>1607926353409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607926353409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加6.43" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加6.43" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="163" key="#Project_Structure" timestamp="1605671680472">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1605671680472" />
-    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605684204951">
+    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1607305761294">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1605684204951" />
+    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1607305761294" />
     <state x="507" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605677944819">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -178,49 +262,88 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="615" y="384" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1010@0.0.1680.1010" timestamp="1605671027148" />
-    <state x="506" y="252" key="FileChooserDialogImpl" timestamp="1605687782933">
+    <state x="390" y="110" key="CommitChangelistDialog2" timestamp="1608198989961">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="506" y="252" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1605687782933" />
-    <state width="1637" height="550" key="GridCell.Tab.0.bottom" timestamp="1605696786474">
+    <state x="390" y="110" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1608198989961" />
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1607311245276">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="550" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1605696786474" />
-    <state width="1637" height="550" key="GridCell.Tab.0.center" timestamp="1605696786474">
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1607311245276" />
+    <state x="387" y="252" key="FileChooserDialogImpl" timestamp="1608194805853">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="550" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1605696786474" />
-    <state width="1637" height="550" key="GridCell.Tab.0.left" timestamp="1605696786474">
+    <state x="387" y="252" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1608194805853" />
+    <state width="1637" height="287" key="GridCell.Tab.0.bottom" timestamp="1608197171663">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="550" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1605696786474" />
-    <state width="1637" height="550" key="GridCell.Tab.0.right" timestamp="1605696786474">
+    <state width="1637" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1608197171663" />
+    <state width="1637" height="287" key="GridCell.Tab.0.center" timestamp="1608197171662">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="550" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1605696786474" />
-    <state width="1637" height="320" key="GridCell.Tab.1.bottom" timestamp="1605683490697">
+    <state width="1637" height="287" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1608197171662" />
+    <state width="1637" height="287" key="GridCell.Tab.0.left" timestamp="1608197171662">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="320" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1605683490697" />
-    <state width="1637" height="320" key="GridCell.Tab.1.center" timestamp="1605683490697">
+    <state width="1637" height="287" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1608197171662" />
+    <state width="1637" height="287" key="GridCell.Tab.0.right" timestamp="1608197171663">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="320" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1605683490697" />
-    <state width="1637" height="320" key="GridCell.Tab.1.left" timestamp="1605683490697">
+    <state width="1637" height="287" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1608197171663" />
+    <state width="1637" height="433" key="GridCell.Tab.1.bottom" timestamp="1608013854220">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="320" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1605683490697" />
-    <state width="1637" height="320" key="GridCell.Tab.1.right" timestamp="1605683490697">
+    <state width="1637" height="433" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1608013854220" />
+    <state width="1637" height="433" key="GridCell.Tab.1.center" timestamp="1608013854220">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="320" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1605683490697" />
+    <state width="1637" height="433" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1608013854220" />
+    <state width="1637" height="433" key="GridCell.Tab.1.left" timestamp="1608013854220">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="433" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1608013854220" />
+    <state width="1637" height="433" key="GridCell.Tab.1.right" timestamp="1608013854220">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="433" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1608013854220" />
     <state x="286" y="157" key="SettingsEditor" timestamp="1605682133530">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="286" y="157" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1605682133530" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1607926365523">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1607926365523" />
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608199007839">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1608199007839" />
+    <state x="302" y="315" width="958" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607745595111">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="302" y="315" width="958" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1010@0.0.1680.1010" timestamp="1607745595111" />
+    <state x="402" y="257" width="941" height="534" key="find.popup" timestamp="1607752375667">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="402" y="257" width="941" height="534" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1607752375667" />
     <state x="104" y="263" width="1251" height="601" key="new project wizard" timestamp="1605668572714">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="104" y="263" width="1251" height="601" key="new project wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1605668572714" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1607746046696">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1607746046696" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2.jar!/org/elasticsearch/cluster/metadata/IndexNameExpressionResolver.class</url>
+          <line>92</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
